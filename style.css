@@ -1,0 +1,104 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+ body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background-image: url("abstract-shadowy-textures-subtle-highlights-luminescence-seep-through-dark-background_764067-9315.avif") ;
+    background-size: cover;
+
+    
+     }
+.container{
+    max-width: 500px;
+    padding: 28px;
+    margin: 0 28px;
+    /* overflow: hidden; */
+    border: 2px solid  #096668;
+    box-shadow: 2px 4px 3px #096668 ;
+    
+}
+h2{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 8px;
+    box-shadow: 2px 4px 6px #096668;
+    color: #096668;
+}
+.main-user-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+.main-info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding: 15px;
+}
+
+.main-user-info label, .gender-info{
+    width: 95%;
+    font-weight: bold;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.main-info input{
+    height: 30px;
+    width: 95%;
+    padding: 0 8px;
+    border-radius: 5px;
+    border: 2px solid cadetblue;
+    box-shadow: 0px 0px 6px #096668
+
+}
+
+.main-user-info label, .city-info{
+    width: 95%;
+    font-weight: bold;
+    margin: 5px 0;
+    color: #096668;
+
+    
+}
+.main-user-info label, .subject-info{
+    width: 95%;
+    font-weight:bold;
+    margin: 5px 0;
+    cursor: pointer;
+}
+.submit-info{
+margin-top: 4px;
+margin-bottom: 0%;
+}
+.submit-info button{
+    width: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    display: block;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    margin-left: 150px;
+}
+button:hover{
+    background-color:  #096668;
+}
+.main-user-info , span{
+    font-size:large;
+    font-weight: bold;
+}

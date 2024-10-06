@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <div class="container">
+        <h2>Registration Form</h2>
+        <form action="#" method="post">
+         <div class="main-user-info">
+        <div class="main-info">
+            <span style=" color: #096668;">First Name</span> 
+            <input type="text" placeholder="Enter Your Full Name" required>
+            </div>
+            <div class="main-info">
+            <span style=" color: #096668;">Last Name</span>
+            <input type="text" placeholder="Enter Your User Name" required>
+        </div>
+        <div class="main-info">
+            <span style=" color: #096668;">Email Address </span>
+            <input type="text" placeholder="Enter Your Email" required>
+            </div>
+            <div class="main-info">
+            <span style=" color: #096668;">Phone Number</span>
+            <input type="text" placeholder="Enter Your Number" required>
+        </div>
+        <div class="main-info">
+            <span style=" color: #096668;">Password</span>
+            <input type="password" placeholder="Enter Your password" required>
+        </div>
+        <div class="main-info">
+            <span style=" color: #096668;">Confirm Password</span>
+            <input type="password" placeholder="Confirm Your Password" required>
+        </div>
+           <div class="gender-info">
+            <span style=" color: #096668;">Gender</span>
+            
+            <div class="info">
+            <label for="id1">
+            <input type="radio" value="male" name="gender" id="id1">Male 
+        </label>
+        <label for="id2">
+            <input type="radio" value="female" name="gender" id="id2">Female
+        </label> 
+        </div> 
+    </div>  
+     <div class="subject-info">
+        <span style=" color: #096668;">Select your subject</span>
+        <br>
+     <label for="Chem">
+        <input type="checkbox" name="subject" id="101">Chemistry
+     </label>
+     <label for="Phy">
+        <input type="checkbox" name="subject" id="101">Physics
+     </label>
+     <label for="Maths">
+        <input type="checkbox" name="subject" id="101">Maths
+     </label>
+     <label for="Eng">
+        <input type="checkbox" name="subject" id="101">English
+     </label>
+     </div>
+
+     <div class="city-info">
+
+     <span>Select your City</span>
+     <select name="city">
+        <option value="Lahore">Lahore</option>
+        <option value="Islamabad">Islamabad</option>
+        <option value="Sahiwal">Sahiwal</option>
+        <option value="Okara">Okara</option>
+       </select>
+     </div>
+        <div class="submit-info">
+            <button >Register</button>
+        </div>
+     </form>
+    
+     </div>
+</body>
+</html>
